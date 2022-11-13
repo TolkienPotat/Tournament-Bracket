@@ -23,7 +23,7 @@ function finalBracket(){
 }
 
 function death(){
-  document.getElementById("tGame").innerHTML = "Final Game: " + topWinner + " 1, " + botWinner + " 1.";
+  document.getElementById("tGame").innerHTML = "Final Matchup!\nFinal Game: " + topWinner + " 1, " + botWinner + " 1.";
   secGame = document.createElement("select");
   op1 = document.createElement("option");
   op1.text = topWinner;
