@@ -11,3 +11,30 @@ html, body {
   background-color: #4CAF50;
   color: white;
 }
+
+
+.center {
+  margin: auto;
+  width: 60%;
+  border: 3px solid #73AD21;
+  padding: 10px;
+}
+
+.colorDiv {
+  border: 3px solid #080808;  
+  padding: 10px;
+}
+
+.centerLeft {
+  width: 45%;
+  float:left;
+  border: 3px solid #73AD21;
+  padding: 10px;
+}
+
+.centerRight {
+  width: 45%;
+  float:right;
+  border: 3px solid #73AD21;
+  padding: 10px;
+}

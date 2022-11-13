@@ -8,12 +8,13 @@
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
-<body>
+<body onload="checkLSL()">
   <h1>Tournament Bracket Tool</h1>
   <button class="button1" id="crBracket">Create your Tournament Bracket</button>
-  <button class="button1">Load a Tournament Bracket</button>
+  <button class="button1" onclick="loadBracket()">Load a Tournament Bracket</button>
+  <button class="button1" onclick="location.href = 'about.html'">About</button>
   <script src="script.js"></script>
-
+  
 
 </body>
 

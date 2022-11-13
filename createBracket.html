@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1>Create your tournament bracket</h1>
+  <p>Enter any number of team names. When finished, press create bracket.</p>
+  <button id="getName" onclick="readName(getElementById('name'), true)">Add Team</button>
+  <input placeholder="Enter team name" id="name" onkeydown="readName(this, false)"></input>
+  <p id="nameList"></p>
+  <br>
+  <br>
+  <h3>Additional Settings</h3>
+  <input type="checkbox" id="dEm">Double Elimination</input>
+  <br>
+  <input type="checkbox" id="randomize">Randomize Order</input>
+  <br>
+  <br>
+  <button id="create">Create Bracket</button>
+
+  
+  <script src="createBracket.js"></script>
+  
+</body>
+
+</html>
