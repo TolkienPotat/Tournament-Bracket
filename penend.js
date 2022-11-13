@@ -5,7 +5,7 @@ plDiv = document.getElementById("place");
 
 function finalBracket(){
 
-  document.getElementById("tGame").innerHTML = "First Game: " + topWinner + " 1, " + botWinner + " 0.";
+  document.getElementById("tGame").innerHTML = "Final Matchup!\nFirst Game: " + topWinner + " 1, " + botWinner + " 0.";
   
 
   firstGame = document.createElement("select");
